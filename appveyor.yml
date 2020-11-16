@@ -1,0 +1,16 @@
+version: '{build}'
+image: Visual Studio 2019 Preview
+branches:
+  only:
+  - main
+init:
+  - cmd: git config --global core.autocrlf true
+configuration:
+  - Release
+before_build:
+  - cmd: dotnet --version
+build_script:
+  - cmd: dotnet build
+test_script:
+  - cmd: dotnet test
+  
