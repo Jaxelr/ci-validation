@@ -13,4 +13,3 @@ build_script:
   - cmd: dotnet build
 test_script:
   - cmd: dotnet test
-  
