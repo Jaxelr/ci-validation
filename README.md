@@ -1,4 +1,4 @@
-# dotnet-ci-validation
+# Dotnet Ci Validation
 
 This repository is used to test newer versions of dotnet on the CI's in order to avoid polluting my repos with fidgeting of configurations
 
