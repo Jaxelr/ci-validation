@@ -1,5 +1,5 @@
 version: '{build}'
-image: Visual Studio 2022 Preview
+image: Visual Studio 2022
 branches:
   only:
   - main
