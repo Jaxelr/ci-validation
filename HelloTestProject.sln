@@ -1,9 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30711.63
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloTestProject", "HelloTestProject.csproj", "{15365639-553B-4C0C-9B60-D822D67D0B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloTestProject", "HelloTestProject.csproj", "{15365639-553B-4C0C-9B60-D822D67D0B9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{58C89BD6-09E1-4528-84B1-FF28F02CA936}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{331DDB28-9C91-4944-A300-F37BC103879C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F70C6D36-D7E7-4E69-80E7-341E2FBCC29A}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +27,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{331DDB28-9C91-4944-A300-F37BC103879C} = {58C89BD6-09E1-4528-84B1-FF28F02CA936}
+		{F70C6D36-D7E7-4E69-80E7-341E2FBCC29A} = {331DDB28-9C91-4944-A300-F37BC103879C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C44E8E5C-A305-4779-928E-647625BDAE7C}
